@@ -23,7 +23,10 @@ LinkedIn: https://www.linkedin.com/in/shaheer-ahmad-ch/
 - **Office Security:** Secure access to sensitive information by restricting login access to authorized IP addresses within office premises.
 
 - **Remote Work Management:** Facilitate remote work arrangements by enabling IP address restrictions for employees accessing Canvas apps outside the office network.
+ 
+## Get Started 
 
+Download the managed solution from [here](so)
 
 ## License
 
