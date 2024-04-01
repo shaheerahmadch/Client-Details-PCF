@@ -1,6 +1,6 @@
 import { IInputs, IOutputs } from "./generated/ManifestTypes";
 
-export class IpAddressPCF implements ComponentFramework.StandardControl<IInputs, IOutputs> {
+export class GetClientDetails implements ComponentFramework.StandardControl<IInputs, IOutputs> {
     private ipAddressElement: HTMLParagraphElement;
     private _notifyOutputChanged: () => void;
 
