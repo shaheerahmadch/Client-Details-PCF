@@ -24,27 +24,12 @@ export class GetClientDetails implements ComponentFramework.StandardControl<IInp
     }
 
     public updateView(context: ComponentFramework.Context<IInputs>): void {
-        const newTextColor = context.parameters.TextColor.raw ? context.parameters.TextColor.raw : "black";
-        const newFontSize = context.parameters.FontSize.raw ? context.parameters.FontSize.raw : "15";
-        const newFontWeight = context.parameters.FontWeight.raw ? context.parameters.FontWeight.raw : "600";
-        if (this.textColor !== newTextColor) {
-            // Update the text color and mark output as changed
-            this.textColor = newTextColor;
-            this.ipAddressElement.style.color = this.textColor;
-            this._notifyOutputChanged();
-        }
-        if (this.fontSize !== newFontSize) {
-            // Update the text color and mark output as changed
-            this.fontSize = newFontSize;
-            this.ipAddressElement.style.fontSize = this.fontSize+"px";
-            this._notifyOutputChanged();
-        }
-        if (this.fontWeight !== newFontWeight) {
-            // Update the text color and mark output as changed
-            this.fontWeight = newFontWeight;
-            this.ipAddressElement.style.fontWeight = this.fontWeight;
-            this._notifyOutputChanged();
-        }
+        this.textColor = context.parameters.TextColor.raw ? context.parameters.TextColor.raw : "black";
+        this.fontSize = context.parameters.FontSize.raw ? context.parameters.FontSize.raw : "15";
+        this.fontWeight = context.parameters.FontWeight.raw ? context.parameters.FontWeight.raw : "600";
+        this.ipAddressElement.style.fontSize = this.fontSize+"px";
+        this.ipAddressElement.style.fontWeight = this.fontWeight;
+        this.ipAddressElement.style.color = this.textColor;
     }
 
     public getOutputs(): IOutputs {
