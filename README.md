@@ -2,7 +2,7 @@
 
 The Get Client Details PCF component is designed to enforce IP address restrictions within your Canvas apps. This component allows on-site employees to restrict access based on IP addresses, enabling secure authentication using their work IP.
 
-![GetClientDetails](./Assets/GetClientDetails.png)
+![GetClientDetails](./Assets/GetClientDetailsPreview.png)
 
 ## Author
 
@@ -30,6 +30,17 @@ The Get Client Details PCF component is designed to enforce IP address restricti
 ## Get Started 
 
 Download the managed solution from [here](./Solutions/GetClientDetails.zip)
+
+Import the managed solution in your environment
+
+Enable publishing of Code Componenet in your environment settings
+
+Import the code componenet inside your canvas app
+
+Configure the input properties
+
+![GetClientDetails](./Assets/GetClientDetails.png)
+
 
 ## License
 
