@@ -26,7 +26,7 @@ LinkedIn: https://www.linkedin.com/in/shaheer-ahmad-ch/
  
 ## Get Started 
 
-Download the managed solution from [here](so)
+Download the managed solution from [here](./Solutions/GetClientDetails.zip)
 
 ## License
 
