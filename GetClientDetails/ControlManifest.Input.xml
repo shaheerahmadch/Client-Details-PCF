@@ -18,6 +18,9 @@
       -->
     </external-service-usage>
     <property name="IPAddress" display-name-key="IPAddress" description-key="IPAddress" of-type="SingleLine.Text" usage="output" required="true" />
+    <property name="TextColor" display-name-key="TextColor" description-key="TextColor" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="FontSize" display-name-key="FontSize" description-key="FontSize" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="FontWeight" display-name-key="FontWeight" description-key="FontWeight" of-type="SingleLine.Text" usage="input" required="true" />
     <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
     <!-- <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" /> -->
     <!--
