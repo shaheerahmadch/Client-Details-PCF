@@ -7,13 +7,7 @@ The Get Client Details PCF component is designed to enforce IP address restricti
 ## Author
 
 [Shaheer Ahmad](https://www.linkedin.com/in/shaheer-ahmad-ch/)
-
-## Contact Information
-
-[LinkedIn](https://www.linkedin.com/in/shaheer-ahmad-ch/)
-
-[Email](mailto:shaheer.ashraf@live.com)
-
+[Muhammad Ahmad](https://www.linkedin.com/in/muhammad-ahmad-33063b27b/)
 
 ## Key Features
 
